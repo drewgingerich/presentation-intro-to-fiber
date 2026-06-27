@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 400px;
+
+  & * {
+    flex: 1;
+  }
+}
+
+figcaption {
+  font-size: 0.6em;
+  color: grey;
+}
